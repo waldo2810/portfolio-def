@@ -4,9 +4,22 @@ import todolist from "../assets/todolist.png";
 import todolistGif from "../assets/todolist-gif.gif";
 import sociopedia from "../assets/sociopedia.png";
 import sociopediaGif from "../assets/socialmedia.gif";
-import uber from "../assets/uber.png";
+import extennndo from "../assets/extennndo.png";
+import extennndoPromo from "../assets/extennndo-promo.png";
 
 export const projectData = [
+  {
+    title: "Extennndo",
+    pictureUrl: extennndo,
+    gif: extennndoPromo,
+    shortDescription:
+      "Minimal new tab page fetching pictures from @entropy API",
+    longDescription:
+      "extennndo will replace your new tab page. Giving you a fresh new image from @ennntropy any time you open a new one. The way it works is by fetching their API that offers an image URL from their archive, which is then placed on the html of the new tab page.",
+    repo: "https://github.com/waldo2810/extennndo",
+    features: ["creative", "inspirational", "visionary"],
+    technologies: ["html", "css", "javascript"],
+  },
   {
     title: "Crwn-Clothing",
     pictureUrl: clothing,
